@@ -172,6 +172,12 @@ class TankGame:
                         bot.run(self.bots)
                 self.living_bots = [bot for bot in self.bots if bot and bot.live]
                 living_bots = self.living_bots
+                
+                if len(living_bots) > 0 and all(bot.name == living_bots[0].name for bot in living_bots):
+                    print(f"Game Over! Winners: {', '.join(bot.name for bot in living_bots)}")
+                    exit()
+                    break
+                
                 if len(living_bots) <= 1:
                     print(f"Game Over! Winner: {living_bots[0].name if living_bots else 'No one'}")
                     exit()
@@ -334,13 +340,6 @@ class EnemyTank(Tank):
         max_fuel = 25
         nearest_bot = self.get_nearest_bot(bots)
         distance_to_recharge = self.distance_to(self.recharge_place)
-        
-        if self.duplicate:
-            # Ensure the tank moves to the recharge point at the start of the game
-            if self.tired == max_tired and self.fuel == max_fuel:
-                if self.position != self.recharge_place:
-                    self.move(self.recharge_place)
-                return
 
         # Quickly return to the recharge point if out of bullets or rockets
         if self.bullets == 0 or self.rockets == 0:
