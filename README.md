@@ -146,8 +146,8 @@ Please ensure your code follows the project's coding standards and includes rele
 
 Have questions or suggestions? Reach out to us!
 
-- **Email**: [your.email@example.com](mailto:barnabas@masterbros.dev) 📧
-- **GitHub**: [@yourusername](https://github.com/bbarni2020) 🔗
+- **Email**: [barnabas@masterbros.dev](mailto:barnabas@masterbros.dev) 📧
+- **GitHub**: [@BaloghBarni](https://github.com/bbarni2020) 🔗
 
 Follow us on [Instagram](https://www.instagram.com/masterbrosdev/) for the latest updates! 🐦✨
 
