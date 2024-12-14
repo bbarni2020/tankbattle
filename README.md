@@ -1,6 +1,5 @@
 # 🚀 **Tank Battle Royale** 🎮💥
 
-![Tank Battle Banner](https://example.com/banner.png)
 
 Welcome to **Tank Battle Royale**, an exciting and strategic tank combat game built with Python! 🐍🔥 Dive into intense battles, strategize your moves, and dominate the battlefield! 🌟
 
