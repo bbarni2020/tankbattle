@@ -24,14 +24,14 @@ Welcome to **Tank Battle Royale**, an exciting and strategic tank combat game bu
 - **Tkinter**: Comes pre-installed with most Python distributions. If not, install it using:
 
   ```bash
-  sudo apt-get install python3-tk
+  pip install tkinter
   ```
 
 ### **Clone the Repository** 📥
 
 ```bash
-git clone https://github.com/bbarni2020/tank-battle-royale.git
-cd tank-battle-royale
+git clone https://github.com/bbarni2020/tankbattle.git
+cd tankbattle
 ```
 
 ### **Install Dependencies** 📦
