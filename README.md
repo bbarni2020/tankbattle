@@ -45,7 +45,7 @@ This project uses only standard Python libraries, so no additional installations
 
 1. **Run the Game** 🚀
 
-   Navigate to the project directory and execute the `main.py` script:
+   Navigate to the project directory and execute the `main.py` script (this is the file you will edit, make your tank in it):
 
    ```bash
    python main.py
