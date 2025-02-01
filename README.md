@@ -138,7 +138,7 @@ Please ensure your code follows the project's coding standards and includes rele
 ## 📜 **License** 📝
 
 *This project uses a custom license. Please refer to the LICENSE file for more details.*
-
+I use AI to clean up and format my code for better readability and grammar correction.  
 ---
 
 ## 📧 **Contact** 📱
